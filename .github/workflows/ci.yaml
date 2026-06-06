@@ -93,5 +93,5 @@ jobs:
         git add helm/go-web-app-chart/values.yaml
         git commit -m "Update tag in Helm chart" || true
         git pull --rebase origin main
-        git push
+        git push origin HEAD:main
 
